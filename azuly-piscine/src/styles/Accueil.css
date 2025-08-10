@@ -1,0 +1,54 @@
+ .logo{
+    width: 400px;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 450px;
+}
+
+.titre {
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.accueil-test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo-container {
+        flex-direction: column;
+    }
+    
+    .logo-container h1{
+        width: 100%;
+    }
+}

@@ -1,0 +1,78 @@
+.galerie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.galerie-jardin-full {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 10px;
+}
+
+
+.galerie-jardin-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.galerie-jardin-track img {
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 1vw;
+}
+
+.galerie-img {
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  display: block;
+  width: 35%;
+}
+
+
+.galerie-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 2;
+  color: #222;
+  padding: 0 20px;
+  transition: color 0.2s;
+}
+.galerie-arrow.left {
+  left: 50px;
+}
+.galerie-arrow.right {
+  right: 50px;
+}
+.galerie-arrow:hover {
+  outline: none;
+  color: #0078d7;
+}
+
+@media screen and (max-width: 768px) {
+  .galerie-arrow.galerie-arrow.left {
+    left: 20px;
+
+  }
+  .galerie-arrow.galerie-arrow.right {
+    right: 20px;
+  }
+  
+}

@@ -1,0 +1,80 @@
+.page-contact{
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+}
+
+.logoflex{
+    display: flex;
+    justify-content: center;
+}
+.logoflex img{
+    width: 25%;
+}
+
+.Mailsection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mailbtn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mailbtn a {
+    font-size: 2rem;
+    font-weight: bold; 
+    color: #000000; 
+    text-decoration: none;
+    text-align: center;
+}
+
+.page-contact h1,p{
+    color: #ffffff;
+}
+
+.mailbtn i{
+    color: #000000;
+    font-size: 2rem;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-text {
+  display: inline-block;
+  animation: pulse 1.5s infinite;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page-contact i{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .logoflex img {
+        width: 50%;
+    }
+
+    .mailbtn a {
+        font-size: 1.5rem;
+    }
+    .page-contact i {
+        font-size: 1.5rem;
+    }
+  
+}

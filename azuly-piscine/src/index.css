@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  max-width: 1920px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Responsive général */
+body, html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Titres et textes */
+h1, h2, h3, p {
+  word-break: break-word;
+}
+
+/* Images adaptatives */
+img, .galerie-img, .logo, .logo-main-verte {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Flex direction colonne sur mobile pour les sections en row */
+@media (max-width: 900px) {
+  .Filtre,
+  .Pompe,
+  .Pompes-chaleur,
+  .Robot-nettoyeur-row,
+  .Bache-row,
+  .services,
+  .prevention-img,
+  .Accessoires-img,
+  .Volet-row {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 24px !important;
+  }
+
+}
+
+/* Galerie responsive */
+@media (max-width: 900px) {
+  .galerie-jardin-full,
+  .galerie-jardin-track {
+    width: 100vw !important;
+  }
+  .galerie-img {
+    width: 90vw !important;
+    height: 25vh !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* Textes et paddings */
+@media (max-width: 600px) {
+  .produit-titre h1, .produit-titre h2, .produit-titre h3 {
+    font-size: 1.2rem !important;
+  }
+  .Filtre p, .Pompe p, .Produits-traitement p, .Entretien-titre p {
+    font-size: 1rem !important;
+    width: 95% !important;
+  }
+  .jardin p {
+    font-size: 1rem !important;
+    width: 95% !important;
+  }
+  .logo, .logo-main-verte {
+    width: 80vw !important;
+    max-width: 300px !important;
+  }
+}
+
+/* Navigation responsive */
+@media (max-width: 700px) {
+  .nav ul {
+    flex-direction: column !important;
+    gap: 10px !important;
+    align-items: center !important;
+  }
+  .nav ul li a {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Footer responsive */
+@media (max-width: 700px) {
+  .footer, .footer_jardin {
+    flex-direction: column !important;
+    height: auto !important;
+    gap: 10px !important;
+    padding: 10px 0 !important;
+  }
+  .footer h2, .footer_jardin h2 {
+    font-size: 1rem !important;
+  }
+}

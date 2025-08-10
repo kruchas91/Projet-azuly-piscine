@@ -1,0 +1,831 @@
+.produit-titre {
+    display: flex;
+    flex-direction: column;
+}
+.Filtre{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    padding-bottom: 20px;
+}
+
+.filtre-cartouche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.filtre-charge-filtrante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.Pompe {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    gap:50px;
+    justify-content: center;
+}
+
+.pompe-filtration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pompe-filtration-econome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suppresseur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Filtre p, .Pompe p {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.page-produit img {
+    border-radius: 300px;
+}
+
+.produit-titre h1,h2 {
+    color:#093b52;
+}
+
+.page-produit h3 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer h2 {
+    color: white;
+}
+
+.produit-titre h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Traitement-produit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    padding: 20px;
+    gap: 40px; 
+}
+
+.Electrolyseur img,
+.Pompe-doseuse img {
+    width: 350px;
+    height: 350px;
+}
+
+.Electrolyseur-titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.Pompe-doseuse-titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.Pompe-doseuse p,
+.Electrolyseur p {
+    text-align: center;
+    color: #093b52;
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.Electrolyseur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Pompe-doseuse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Regroupement des définitions Pompes-chaleur et Pompes-chaleur-performantes */
+.Pompes-chaleur {
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 40px 0;
+}
+
+.Pompes-chaleur img {
+    width: 550px;
+    height: 350px;
+}
+
+.Pompes-chaleur-performantes,
+.Pompes-chaleur-efficaces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    background: rgba(255,255,255,0.85);
+    border-radius: 12px;
+    padding: 24px 16px;
+    box-sizing: border-box;
+}
+
+.Pompes-chaleur-performantes img,
+.Pompes-chaleur-efficaces img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.Pompes-chaleur-performantes h2,
+.Pompes-chaleur-efficaces h2 {
+    color: #093b52;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.Pompes-chaleur-performantes p,
+.Pompes-chaleur-efficaces p {
+    color: #093b52;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+}
+
+.Pompes-chaleur-efficaces {
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bulles-conseil i {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.bulles-conseil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Pompes-chaleur {
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 40px 0;
+}
+
+.Pompes-chaleur-performantes,
+.Pompes-chaleur-efficaces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    background: rgba(255,255,255,0.85); /* optionnel pour la lisibilité */
+    border-radius: 12px;
+    padding: 24px 16px;
+    box-sizing: border-box;
+}
+
+.Pompes-chaleur-performantes img,
+.Pompes-chaleur-efficaces img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.Pompes-chaleur-performantes h2,
+.Pompes-chaleur-efficaces h2 {
+    color: #093b52;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.Pompes-chaleur-performantes p,
+.Pompes-chaleur-efficaces p {
+    color: #093b52;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+}
+
+.bulles-conseil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.bulles-conseil i {
+    font-size: 2.5rem;
+    color: #e6b800;
+    margin-bottom: 10px;
+}
+
+.Entretien-titre {
+    text-align: center;
+}
+
+.Entretien-titre p {
+    color: #093b52;
+    font-size: 1.2rem;
+}
+
+.Nettoyage-automatique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.Nettoyeur-robot {
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    width: 100%;
+}
+
+.Robot-nettoyeur-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Robot-nettoyeur-photo img {
+    width: 33%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Robot-nettoyeur-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.Robot-nettoyeur-fil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Robot-nettoyeur-fil-images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Robot-nettoyeur-fil-images img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Robot-nettoyeur-sans-fil img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Robot-nettoyeur-sans-fil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Robot-nettoyeur-sans-fil p {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 700px;
+    color: #ffffff;
+}
+
+.Robot-nettoyeur-fil p {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 700px;
+    color: #ffffff;
+}
+
+.Produits-traitement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Infos-traitement {
+    display: flex;
+    gap : 20px;
+    align-items: center;
+}
+
+.Traitement-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.Age-de-leau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Age-de-leau img {
+    border-radius: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.Produits-traitement h2 {
+    color: #093b52;
+    text-align: center;
+}
+
+.Produits-traitement p {
+    color: #093b52;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+}
+
+.Produits-traitement i {
+    font-size: 3rem;
+    color: #e6b800;
+}
+
+.Desinfection-chlore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    padding-bottom: 20px;
+}
+
+.Desinfection-chlore h2 {
+    color: #ffffff;
+}
+
+.Desinfection-chlore img {
+    border-radius: 20px;
+    width: 45%;
+    height: auto;
+}
+
+.Chlore-lent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Equilibre-eau-images img{
+    border-radius: 20px;
+}
+
+.ph1-img {
+    width: 45%;
+    height: auto;
+}
+
+.ph2-img {
+    width: 35%;
+    height: auto;
+}
+
+.ph3-img {
+    width: 45%;
+    height: auto;
+}
+
+.ph4-img {
+    width: 20%;
+    height: auto;
+}
+
+.Equilibre-eau-images{
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.ph-img1, .ph-img2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.ph-img2 i {
+    font-size: 3rem;
+    color: #e6b800;
+    margin-top: 20px;
+}
+
+.ph-img2 p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.Equilibre-eau-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.prevention-img{
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.prevention-img img {
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.Prévention-solution {
+    display: flex;
+    flex-direction: column;
+}
+
+.Sel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.Sel-img {
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Sel-img img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.Accessoires-img img {
+    border-radius: 20px;
+}
+.Balai, .Epuisettes{
+    width: 25%;
+    height: auto;
+}
+
+.Brosses, .Thermometre {
+    width: 25%;
+    height:75%;
+}
+
+.Accessoires-img {
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.Accessoires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Volet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Volet-img {
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.Volet h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.Volet p{
+    text-align: center;
+    font-size: 1.2rem;
+    width: 75%;
+    color: black;
+}
+.Volet-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    padding: 20px;
+    width: 100%;
+}
+
+.Volet-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Volet-col img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+
+.Volet-col p {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #ffffff;
+    width: 75%;
+}
+
+.Bache-row {
+    background: linear-gradient(90deg, #259ececb 0%, #093b52 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 100%;
+}
+
+.Bâches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bâches p {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 75%;
+    color: black;
+}
+
+.Bache-row p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    width: 75%;
+    text-align: center;
+}
+
+.Bache-1, .Bache-2, .Bache-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}   
+
+.Bache-1 img, .Bache-2 img, .Bache-3 img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sommaire {
+    width: 220px;
+    background: #093b52;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    color: white;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+    font-size: 0.85rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+
+.sommaire ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.sommaire li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+.sommaire li a:hover {
+    color: #e6b800;
+    text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sommaire-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #093b52;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 1.5rem;
+    z-index: 1100;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.sommaire-fixed {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 220px;
+    background: #093b52;
+    padding: 16px 10px;
+    border-radius: 12px;
+    color: white;
+    z-index: 1000;
+    font-size: 0.85rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translateY(-30px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sommaire-fixed.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sommaire-fixed ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.sommaire-fixed li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.sommaire-fixed li a:hover {
+    color: #e6b800;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .ph-img1, .ph-img2{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+    }
+    .ph-img1 img, .ph-img2 img,.prevention-img img, .Sel-img img, .Accessoires-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Bache-row p{
+        width: 100%;
+    }
+    .Bache-1, .Bache-2, .Bache-3 {
+        width: 100%;
+    }
+    .Filtre, .Pompe {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Robot-nettoyeur-fil-images img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Filtre, .Pompe {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Filtre p, .Pompe p {
+        width: 90%;
+        text-align: center;
+    }
+    .produit-titre h1 {
+        font-size: 2.5rem;
+    }
+    .Bache-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Bache-1, .Bache-2, .Bache-3 {
+        width: 100%;
+    }
+    .Robot-nettoyeur-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Robot-nettoyeur-sans-fil img{
+        width: 100%;
+        height: auto;
+    }
+}

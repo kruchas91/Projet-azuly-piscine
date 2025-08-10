@@ -1,0 +1,228 @@
+.renovation-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color:#093b52;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.renovation-content p {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.renovation-content h2 {
+    font-size: 2rem;
+}
+
+.renovation-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.renovation-images {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.renovation-image{
+    width: 45%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.renovation-header > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.renovation-content p,h1,h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.renovation-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1px;
+}
+
+.depannage{
+    margin-top: 0px;
+}
+.depannage-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.depannage-info p {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+}
+.depannage-info img {
+    border-radius: 10px;
+}
+
+.depannagesection1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.depannagesection2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.renovation-image,
+.depannage-image {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.45);
+}
+
+.renovation-content h3 {
+    font-size: 2rem;
+    text-align: flex-start;
+    padding-left: 20px;
+}
+
+.remise-en-route p {
+    width: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.remise-en-route {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.remise-images {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.remise-images img {
+    width: 80%;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.45);
+}
+
+.entretien1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entretien2 {
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+}
+
+.entretien3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .renovation-images {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .renovation-row {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .renovation-image {
+        width: 100%;
+    }
+    .depannage-info {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .depannage-info p {
+        width: 100%;
+    }
+    .remise-images img {
+        width: 100%;
+    }
+    .entretien1, .entretien2, .entretien3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .remise-en-route p {
+        width: 100%;
+    }
+    .renovation-content h3 {
+        text-align: center;
+    }
+    .entretien-footer p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .Traitement-produit {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .Electrolyseur-titre {
+    width: 100% !important;
+  }
+  .Pompe-doseuse-titre {
+    width: 100% !important;
+  }
+  .Pompes-chaleur-performantes, .Pompes-chaleur-efficaces {
+    width: 90% !important;
+  }
+  .Robot-nettoyeur-fil-images{
+    display: flex;
+    flex-direction: column !important;
+    padding: 10px !important;
+  }
+  .Robot-nettoyeur-sans-fil {
+    padding: 10px !important;
+  }
+  .Chlore-lent{
+    display: flex;
+    flex-direction: column !important;
+    padding: 10px !important;
+  }
+  .Chlore-lent img{
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
