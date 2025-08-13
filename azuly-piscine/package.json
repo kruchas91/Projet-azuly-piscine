@@ -1,7 +1,7 @@
 {
   "name": "azuly-piscine",
   "version": "0.1.0",
-  "homepage": "https://github.com/Jungflorian/azuly-piscine.git/",
+  
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
